@@ -1,0 +1,121 @@
+/*
+Flex Grid Framework
+Original repository:
+https://github.com/afonsopacifer/flex-grid-framework
+Website:
+https://afonsopacifer.github.io/flex-grid-framework/
+Author:
+Afonso Pacifer (afonsopacifer.com.br)
+Licence:
+MIT - https://github.com/afonsopacifer/flex-grid-framework/blob/master/licence.md
+* /
+
+/* Configs
+------------------------------------------------*/
+max-width = 1200px
+margin = 0.52083%
+column = 7.29177%
+
+/* Box Model
+------------------------------------------------*/
+*
+  box-sizing border-box
+
+/* Row
+------------------------------------------------*/
+row()
+	margin-left auto
+	margin-right auto
+	width 100%
+	max-width max-width
+	display -webkit-box
+	display -webkit-flex
+	display -ms-flexbox
+	display flex
+	-webkit-flex-wrap wrap
+	-ms-flex-wrap wrap
+	flex-wrap wrap
+
+/* Columns
+------------------------------------------------*/
+col(number-of-cols = flex)
+	if (number-of-cols is a 'unit')
+    width (number-of-cols * column) + (((number-of-cols - 1) * 2) * margin)
+
+	if (number-of-cols == flex)
+    -webkit-box-flex auto
+    -moz-box-flex auto
+    -webkit-flex auto
+    -ms-flex auto
+    flex auto
+
+	margin-right margin
+	margin-left margin
+
+/* Offset
+------------------------------------------------*/
+offset(number-of-offset = 0)
+	margin-left (number-of-offset * column) + (((number-of-offset - 1) * 2) * margin) + (3 * margin)
+
+/* Flex Container
+------------------------------------------------*/
+justify(content-value = left)
+	if (content-value == left)
+    -webkit-box-pack start
+    -webkit-justify-content flex-start
+    -ms-flex-pack start
+    justify-content flex-start
+
+	if (content-value == right)
+    -webkit-box-pack end
+    -webkit-justify-content flex-end
+    -ms-flex-pack end
+    justify-content flex-end
+
+	if (content-value == center)
+    -webkit-box-pack center
+    -webkit-justify-content center
+    -ms-flex-pack center
+    justify-content center
+
+	if (content-value == between)
+    -webkit-box-pack justify
+    -webkit-justify-content space-between
+    -ms-flex-pack justify
+    justify-content space-between
+
+	if (content-value == around)
+    -webkit-justify-content space-around
+    -ms-flex-pack distribute
+    justify-content space-around
+
+/* Flex Itens
+------------------------------------------------*/
+vertical-align(vertical-value = top)
+	if (vertical-value == top)
+    -webkit-box-align start
+    -webkit-align-items flex-start
+    -ms-flex-align start
+    align-items flex-start
+    -webkit-align-content flex-start
+    -ms-flex-line-pack start
+    align-content flex-start
+
+	if (vertical-value == middle)
+    -webkit-box-align center
+    -webkit-align-items center
+    -ms-flex-align center
+    align-items center
+    flex-start
+    -webkit-align-content center
+    -ms-flex-line-pack center
+    align-content center
+
+	if (vertical-value == bottom)
+    -webkit-box-align end
+    -webkit-align-items flex-end
+    -ms-flex-align end
+    align-items flex-end
+    -webkit-align-content flex-end
+    -ms-flex-line-pack end
+    align-content flex-end

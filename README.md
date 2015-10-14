@@ -9,7 +9,7 @@
 
 2 - Install the grunt-cli
 ```sh
-	$ npm install -g grunt-cli
+$ npm install -g grunt-cli
 ```
 
 3 - Fork it!
@@ -18,7 +18,7 @@
 
 5 - Install all dependencies.
 ```sh
-	$ npm install
+$ npm install
 ```
 6 - Edit the **checklist.json** file and add the new content.
 
