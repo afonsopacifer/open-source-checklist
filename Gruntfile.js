@@ -10,30 +10,30 @@ module.exports = function( grunt ) {
     watch: {
 
       html: {
-        files: 'prod/*.html',
+        files: 'site/*.html',
       },
 
       css: {
-        files: 'prod/assets/styles/*.css',
+        files: 'site/assets/styles/*.css',
       },
 
       jd: {
-        files: ['dev/*.jade','dev/**/*.jade'],
+        files: ['src/*.jade','src/**/*.jade'],
         tasks: ['jade:compile'],
       },
 
       styl: {
-        files: ['dev/assets/styles/*.styl','dev/assets/**/*.styl'],
+        files: ['src/assets/styles/*.styl','src/assets/**/*.styl'],
         tasks: ['stylus:compile'],
       },
 
       javascript: {
-        files: 'dev/assets/scripts/*.js',
+        files: 'src/assets/scripts/*.js',
         tasks: ['uglify'],
       },
 
       img: {
-        files: ['dev/assets/img/*.{png,jpg,gif}','dev/assets/img/**/*.{png,jpg,gif}'],
+        files: ['src/assets/img/*.{png,jpg,gif}','src/assets/img/**/*.{png,jpg,gif}'],
         tasks: ['newer:imagemin'],
       },
 
@@ -48,7 +48,7 @@ module.exports = function( grunt ) {
       //compile for production
       compile: {
         files: {
-					"prod/index.html": ["dev/index.jade"]
+					"site/index.html": ["src/index.jade"]
 				},
         options: {
             data: grunt.file.readJSON("checklist.json")
@@ -60,7 +60,7 @@ module.exports = function( grunt ) {
           pretty: true
         },
         files: {
-					"temp/index.html": ["dev/index.jade"]
+					"temp/index.html": ["src/index.jade"]
 				}
       }
     },
@@ -70,7 +70,7 @@ module.exports = function( grunt ) {
       //compile for production
       compile: {
         files: {
-          'prod/assets/styles/style.min.css':'dev/assets/styles/style.styl' // 1:1 compile
+          'site/assets/styles/style.min.css':'src/assets/styles/style.styl' // 1:1 compile
         }
       },
       //compile for Lint
@@ -79,7 +79,7 @@ module.exports = function( grunt ) {
           compress: false
         },
         files: {
-            'temp/style.css':'dev/assets/styles/style.styl' // 1:1 compile
+            'temp/style.css':'src/assets/styles/style.styl' // 1:1 compile
         }
       }
     },
@@ -87,8 +87,8 @@ module.exports = function( grunt ) {
     //concat all JS
     concat: {
 			dist: {
-		      src: 'dev/assets/scripts/*.js',
-		      dest: 'prod/assets/scripts/scripts.js'
+		      src: 'src/assets/scripts/*.js',
+		      dest: 'site/assets/scripts/scripts.js'
 		    }
 		},
 
@@ -96,7 +96,7 @@ module.exports = function( grunt ) {
     uglify: {
       my_target: {
         files: {
-        'prod/assets/scripts/scripts.min.js': ['dev/assets/scripts/*.js']
+        'site/assets/scripts/scripts.min.js': ['src/assets/scripts/*.js']
         }
       }
     },
@@ -128,7 +128,7 @@ module.exports = function( grunt ) {
         ]
       },
       dist: {
-        src: 'prod/assets/styles/*.css'
+        src: 'site/assets/styles/*.css'
       }
     },
 
@@ -137,9 +137,9 @@ module.exports = function( grunt ) {
       dynamic: {
         files: [{
           expand: true,
-          cwd: 'dev/',
+          cwd: 'src/',
           src: ['assets/img/*.{png,jpg,gif}','assets/img/**/*.{png,jpg,gif}'],
-          dest: 'prod/'
+          dest: 'site/'
         }]
       }
     },
@@ -147,7 +147,7 @@ module.exports = function( grunt ) {
     //Deploy the production files for gh-pages
     'gh-pages': {
       options: {
-        base: 'prod/'
+        base: 'site/'
       },
       src: ['**']
     },
@@ -157,7 +157,7 @@ module.exports = function( grunt ) {
       server: {
         options: {
           port: 9000,
-          base: "prod/",
+          base: "site/",
           hostname: "localhost",
           livereload: true,
           open: true
