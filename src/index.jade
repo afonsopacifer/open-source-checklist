@@ -21,16 +21,63 @@ html(lang="en")
 
 		// header
 		// -----------------------------------------
-		header header
-
+		header(class="header" role="banner")
+			h1(class="heading-1") Open Source Checklist
+			h2(class="heading-2") A guide for create you open source project ;D
+			a(href="https://github.com/afonsopacifer/open-source-checklist" class="btn-default" role="button" target="_blank") I have something to add
+			div.github-buttons
+				iframe(src="https://ghbtns.com/github-btn.html?user=twbs&repo=bootstrap&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px")
+				iframe(src="https://ghbtns.com/github-btn.html?user=twbs&repo=bootstrap&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px")
 		// main
 		// -----------------------------------------
-		main main
+		main.main
+			section
+				article.task-list-container
+					h3.heading-3 Sub Title
+					div.task-list
+						div.task
+							input(type="checkbox" name="" value="")
+							span.task-name 
+								a(href="#" class="task-link") ksjdksjd kjsd kskd jskdskdjksjkdsjdkjskjd sjk  fkdj kdkfj kdjf
+						div.task
+							input(type="checkbox" name="" value="")
+							span.task-name Exemple
 
+				article.task-list-container
+					h3.heading-3 Sub Title
+					div.task-list
+						div.task
+							input(type="checkbox" name="" value="")
+							span.task-name ksjdksjd kjsd kskd jskdskdjksjkdsjdkjskjd sjk  fkdj kdkfj kdjf
+						div.task
+							input(type="checkbox" name="" value="")
+							span.task-name Exemple
+
+				article.task-list-container
+					h3.heading-3 Sub Title
+					div.task-list
+						div.task
+							input(type="checkbox" name="" value="")
+							span.task-name ksjdksjd kjsd kskd jskdskdjksjkdsjdkjskjd sjk  fkdj kdkfj kdjf
+						div.task
+							input(type="checkbox" name="" value="")
+							span.task-name Exemple
+
+			section
+				article.task-list-container
+					h3.heading-3.trick-h3 Tricks and Tips
+
+					a(href="#" class="trick-link")
+						div.trick ksjdksjd kjsd kskd jskdskdjksjkdsjdk fdfjh df dhf jdfjdh fh dfdhfdfd hfd d df fd hdfh dhf dfh dhfhdhf dfjskjd sjk  fkdj kdkfj kdjf
+
+					a(href="#" class="trick-link")
+						div.trick ksjdksjd kjsd kskd jskdskdjksjkdsjdk fdfjh df dhf jdfjdh fh dfdhfdfd hfd d df fd hdfh dhf dfh dhfhdhf dfjskjd sjk  fkdj kdkfj kdjf
 
 		// footer
 		// -----------------------------------------
-		footer footer
+		footer(class="footer")
+			small(class="licence")
+				a(href="https://github.com/afonsopacifer" target="_blank") Made with ♥ by Afonso Pacifer
 
 		// bottom requests
 		// -----------------------------------------
