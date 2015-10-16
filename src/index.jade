@@ -31,47 +31,25 @@ html(lang="en")
 		// main
 		// -----------------------------------------
 		main.main
+
+			//task list
 			section
 				article.task-list-container
-					h3.heading-3 Sub Title
+					h3.heading-3 Tasks
 					div.task-list
-						div.task
-							input(type="checkbox" name="" value="")
-							span.task-name 
-								a(href="#" class="task-link") ksjdksjd kjsd kskd jskdskdjksjkdsjdkjskjd sjk  fkdj kdkfj kdjf
-						div.task
-							input(type="checkbox" name="" value="")
-							span.task-name Exemple
-
-				article.task-list-container
-					h3.heading-3 Sub Title
-					div.task-list
-						div.task
-							input(type="checkbox" name="" value="")
-							span.task-name ksjdksjd kjsd kskd jskdskdjksjkdsjdkjskjd sjk  fkdj kdkfj kdjf
-						div.task
-							input(type="checkbox" name="" value="")
-							span.task-name Exemple
-
-				article.task-list-container
-					h3.heading-3 Sub Title
-					div.task-list
-						div.task
-							input(type="checkbox" name="" value="")
-							span.task-name ksjdksjd kjsd kskd jskdskdjksjkdsjdkjskjd sjk  fkdj kdkfj kdjf
-						div.task
-							input(type="checkbox" name="" value="")
-							span.task-name Exemple
-
+						- for task in tasks
+							div.task
+								input(type="checkbox" name="" value="")
+								span.task-name 
+									a(href=task.link class="task-link")=task.name
+			
+			//trick list
 			section
 				article.task-list-container
 					h3.heading-3.trick-h3 Tricks and Tips
-
-					a(href="#" class="trick-link")
-						div.trick ksjdksjd kjsd kskd jskdskdjksjkdsjdk fdfjh df dhf jdfjdh fh dfdhfdfd hfd d df fd hdfh dhf dfh dhfhdhf dfjskjd sjk  fkdj kdkfj kdjf
-
-					a(href="#" class="trick-link")
-						div.trick ksjdksjd kjsd kskd jskdskdjksjkdsjdk fdfjh df dhf jdfjdh fh dfdhfdfd hfd d df fd hdfh dhf dfh dhfhdhf dfjskjd sjk  fkdj kdkfj kdjf
+					- for trick in tricks
+						a(href=trick.link class="trick-link")
+							div.trick=trick.name
 
 		// footer
 		// -----------------------------------------
