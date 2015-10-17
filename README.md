@@ -1,51 +1,25 @@
 # [Open Source Checklist](http://afonsopacifer.github.io/open-source-checklist/)
 
-> A guide for help you to create a open source project.
+> A guide to help you remember important things when creating an open source project ;D
 
 ![Open Source website](open-source-website.jpg)
 
-## Insert a new content
-1 - Install the [nodejs](https://nodejs.org/en/).
+## Insert content quickly
+1 - Edit the **checklist.json** file and add the new content.
 
-2 - Install the grunt-cli
+2 - Run the grunt task for build the static pages:
+
 ```sh
-$ npm install -g grunt-cli
+	$ grunt build
 ```
 
-3 - Fork it!
-
-4 - Clone
-
-5 - Install all dependencies.
-```sh
-$ npm install
-```
-6 - Edit the **checklist.json** file and add the new content.
-
-7 - Run the grunt task for build the static pages:
-
-`$ grunt build`
-
-8 - Create your feature branch:
-```sh
-$ git checkout -b my-new-tasks
-```
-9 - Commit your changes:
-```sh
-$ git commit -a -m 'Add some task'
-```
-10 - Push to the branch:
-```sh
-$ git push origin my-new-task
-```
-11 - Submit a pull request :)
+For more information about how to contribute, see the [contribution guide](https://github.com/afonsopacifer/open-source-checklist/blob/master/CONTRIBUTING.md).
 
 ## Tasks list
 
-- Compile, concat and minify all files: `$ grunt build`
-- Watch the files to build and start a static server: `$ grunt serve`
-- Autoprefixer the css: `$ grunt autoprefixer`
-- Deploy for gh-pages: `$ grunt deploy`
+- `$ grunt build`: Compile, concat and minify all files.
+- `$ grunt serve`: Watch the files to build and start a static server.
+- `$ grunt deploy`: Deploy for gh-pages
 
 ## Contributing with new features
 
