@@ -1,5 +1,5 @@
 doctype html
-html(lang="en")
+html(lang="en" prefix="og: http://ogp.me/ns#")
 
 	// head
 	// -----------------------------------------
@@ -12,10 +12,24 @@ html(lang="en")
 		-var description = "A guide for help you to create a open source project."
 		
 		// SEO
-		meta(name="keywords" content="")
+		meta(name="keywords" content="Open Source, Checklist, Github")
 		meta(name="description" content=description)
 		meta(name="robots" content="index,follow")
 		title= title
+
+		// Open Graph
+		meta(property="og:type" content="website")
+		meta(property="og:title" content= title)
+		meta(property="og:description" content=description)
+		meta(property="og:url" content="https://afonsopacifer.github.io/open-source-checklist")
+		meta(property="og:image" content="https://afonsopacifer.github.io/open-source-checklist/assets/img/check-icon.svg")
+
+		// Twitter Cards
+		meta(name="twitter:card" content="summary_large_image")
+		meta(name="twitter:title" content= title)
+		meta(name="twitter:description" content=description)
+		meta(name="twitter:url" content="https://afonsopacifer.github.io/open-source-checklist")
+		meta(name="twitter:image" content="https://afonsopacifer.github.io/open-source-checklist/assets/img/check-icon.svg")
 
 	body
 
@@ -26,8 +40,8 @@ html(lang="en")
 			h2(class="heading-2") A guide to help you remember important things when creating an open source project ;D
 			a(href="https://github.com/afonsopacifer/open-source-checklist" class="btn-default" role="button" target="_blank") I want to contribute !
 			div.github-buttons
-				iframe(src="https://ghbtns.com/github-btn.html?user=twbs&repo=bootstrap&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px")
-				iframe(src="https://ghbtns.com/github-btn.html?user=twbs&repo=bootstrap&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px")
+				iframe(src="https://ghbtns.com/github-btn.html?user=afonsopacifer&repo=open-source-checklist&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px")
+				iframe(src="https://ghbtns.com/github-btn.html?user=afonsopacifer&repo=open-source-checklist&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px")
 		// main
 		// -----------------------------------------
 		main.main
@@ -39,8 +53,8 @@ html(lang="en")
 					div.task-list
 						- for task in tasks
 							div.task
-								input(type="checkbox" name="" value="")
-								span.task-name 
+								input(type="checkbox" value=task.name)
+								span.task-name
 									a(href=task.link class="task-link")=task.name
 			
 			//trick list
