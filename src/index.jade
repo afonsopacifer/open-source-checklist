@@ -59,14 +59,14 @@ html(lang="en" prefix="og: http://ogp.me/ns#")
 							div.task
 								input(type="checkbox" value=task.name)
 								span.task-name
-									a(href=task.link class="task-link")=task.name
+									a(href=task.link class="task-link" target="_blank")=task.name
 			
 			//trick list
 			section
 				article.task-list-container
 					h3.heading-3.trick-h3 Tricks and Tips
 					- for trick in tricks
-						a(href=trick.link class="trick-link")
+						a(href=trick.link class="trick-link" target="_blank")
 							div.trick=trick.name
 
 		// footer
