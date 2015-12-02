@@ -1,54 +1,65 @@
 {
   "tasks":[
-{
-  "name":"Choose a cool name!",
-  "link":"#"
-},
+    {
+      "name":"Choose a cool name!",
+      "name_pt_br":"?",
+      "link":"#" 
+    },
     {
       "name":"Add a README.md file containing all the basic information about your project.",
+      "name_pt_br":"?",
       "link":"#"
     },
     {
       "name":"Select and add the best LICENCE for your project.",
+      "name_pt_br":"?",
       "link":"http://choosealicense.com/"
     },
     {
       "name":"Create a CONTRIBUTING.md file containing all the necessary information so that other developers can help you.",
+      "name_pt_br":"?",
       "link":"#"
     },
-{
-  "name":"Document your project in the best possible way.",
-  "link":"#"
-},
-{
-  "name":"Create a roadmap to make clear the course of the project.",
-  "link":"#"
-},
-{
-  "name":"Choose a methodology versioning and follow.",
-  "link":"#"
-},
-{
-  "name":"Use badges to indicate the status of your project.",
-  "link":"http://shields.io/"
-},
-{
-  "name":"When necessary do not hesitate to create a website for your project. Enjoy and publish with github pages.",
-  "link":"https://pages.github.com/"
-}
-
+    {
+      "name":"Document your project in the best possible way.",
+      "name_pt_br":"?",
+      "link":"#"
+    },
+    {
+      "name":"Create a roadmap to make clear the course of the project.",
+      "name_pt_br":"?",
+      "link":"#"
+    },
+    {
+      "name":"Choose a methodology versioning and follow.",
+      "name_pt_br":"?",
+      "link":"#"
+    },
+    {
+      "name":"Use badges to indicate the status of your project.",
+      "name_pt_br":"?",
+      "link":"http://shields.io/"
+    },
+    {
+      "name":"When necessary do not hesitate to create a website for your project. Enjoy and publish with github pages.",
+      "name_pt_br":"?",
+      "link":"https://pages.github.com/"
+    }
   ],
   "tricks":[
     {
       "name":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "name_pt_br":"?",
       "link":"#"
     },
     {
       "name":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "name_pt_br":"?",
       "link":"#"
     },
     {
       "name":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "name_pt_br":"?",
       "link":"#"
     }
   ]

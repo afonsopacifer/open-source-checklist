@@ -37,6 +37,11 @@ module.exports = function( grunt ) {
         tasks: ['newer:imagemin'],
       },
 
+      json: {
+        files: ['checklist.json'],
+        tasks: ['build'],
+      },
+
       options: {
         livereload: true
       }
@@ -48,7 +53,8 @@ module.exports = function( grunt ) {
       //compile for production
       compile: {
         files: {
-					"site/index.html": ["src/index.jade"]
+					"site/index.html": ["src/index.jade"],
+          "site/pt-br.html": ["src/pt-br.jade"]
 				},
         options: {
             data: grunt.file.readJSON("checklist.json")
