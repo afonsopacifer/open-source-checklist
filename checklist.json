@@ -1,66 +1,131 @@
 {
   "tasks":[
     {
-      "name":"Choose a cool name!",
-      "name_pt_br":"?",
-      "link":"#" 
+      "name":"",
+      "name_pt_br":"Escolha um nome descolado!",
+      "link":"http://ivantomic.com/projects/ospnc/"
     },
     {
-      "name":"Add a README.md file containing all the basic information about your project.",
-      "name_pt_br":"?",
+      "name":"",
+      "name_pt_br":"Crie uma descrição coerente para seu projeto.",
       "link":"#"
     },
     {
-      "name":"Select and add the best LICENCE for your project.",
-      "name_pt_br":"?",
+      "name":"",
+      "name_pt_br":"Adicione um README.md contendo todas as informações básicas sobre o seu projeto.",
+      "link":"https://en.wikipedia.org/wiki/README"
+    },
+    {
+      "name":"",
+      "name_pt_br":"Escolha uma licença adequada.",
       "link":"http://choosealicense.com/"
     },
     {
-      "name":"Create a CONTRIBUTING.md file containing all the necessary information so that other developers can help you.",
-      "name_pt_br":"?",
-      "link":"#"
+      "name":"",
+      "name_pt_br":"Crie um arquivo CONTRIBUTING.md contendo todas as informações necessárias para que outros desenvolvedores ajudem ;)",
+      "link":"https://github.com/blog/1184-contributing-guidelines"
     },
     {
-      "name":"Document your project in the best possible way.",
-      "name_pt_br":"?",
-      "link":"#"
+      "name":"",
+      "name_pt_br":"Documente seu projeto da melhor forma possível.(Como usar, dependências, suporte, etc...)",
+      "link":"http://blog.smartbear.com/careers/13-things-people-hate-about-your-open-source-docs/"
     },
     {
-      "name":"Create a roadmap to make clear the course of the project.",
-      "name_pt_br":"?",
-      "link":"#"
+      "name":"",
+      "name_pt_br":"Defina um Roadmap para deixar claro os rumos que o projeto vai tomar.",
+      "link":"https://en.wikipedia.org/wiki/Technology_roadmap"
     },
     {
-      "name":"Choose a methodology versioning and follow.",
-      "name_pt_br":"?",
-      "link":"#"
+      "name":"",
+      "name_pt_br":"Escolha uma metodologia de versionamento e a siga!",
+      "link":"http://semver.org/"
     },
     {
-      "name":"Use badges to indicate the status of your project.",
-      "name_pt_br":"?",
+      "name":"",
+      "name_pt_br":"Descreva suas Releases de forma clara e objetiva ou crie um arquivo CHEGELOG.md e faça isso lá.",
+      "link":"http://keepachangelog.com/"
+    },
+    {
+      "name":"",
+      "name_pt_br":"Use Badges para indicar os vários status do projeto.",
       "link":"http://shields.io/"
     },
     {
-      "name":"When necessary do not hesitate to create a website for your project. Enjoy and publish with github pages.",
-      "name_pt_br":"?",
+      "name":"",
+      "name_pt_br":"Quando necessário, crie um website para seu projeto. Aproveite as github pages ;)",
       "link":"https://pages.github.com/"
+    },
+    {
+      "name":"",
+      "name_pt_br":"Escreva testes automatizados!",
+      "link":"https://www.inflectra.com/Ideas/Topic/Testing-Methodologies.aspx"
+    },
+    {
+      "name":"",
+      "name_pt_br":"Integre seus testes a um serviço de Integração Contínua",
+      "link":"https://travis-ci.org/"
+    },
+    {
+      "name":"",
+      "name_pt_br":"Adicione um arquivo .gitignore contendo tudo o que você não deseja versionar.",
+      "link":"https://help.github.com/articles/ignoring-files/"
+    },
+    {
+      "name":"",
+      "name_pt_br":"Configure e adicione um .editorconfig com seus padrões de indentação, etc...",
+      "link":"http://editorconfig.org/"
+    },
+    {
+      "name":"",
+      "name_pt_br":"Disponibilize seu projeto no gerenciador de pacotes adequado. (EX: bower, npm, etc...)",
+      "link":"https://en.wikipedia.org/wiki/List_of_software_package_management_systems"
     }
   ],
   "tricks":[
     {
-      "name":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "name_pt_br":"?",
-      "link":"#"
+      "name":"",
+      "name_pt_br":"Use sempre SVG.",
+      "link":"https://github.com/willianjusten/awesome-svg"
     },
     {
-      "name":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "name_pt_br":"?",
-      "link":"#"
+      "name":"",
+      "name_pt_br":"Submeta seu projeto a newsletter adequada.",
+      "link":"https://github.com/randalmaia/awesome-newsletters"
     },
     {
-      "name":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "name_pt_br":"?",
-      "link":"#"
+      "name":"",
+      "name_pt_br":"Submeta seu projeto a awesome list adequada.",
+      "link":"https://github.com/sindresorhus/awesome"
+    },
+    {
+      "name":"",
+      "name_pt_br":"Use Emoji Emoticons sem moderação.",
+      "link":"http://www.emoji-cheat-sheet.com/"
+    },
+    {
+      "name":"",
+      "name_pt_br":"Seja o mestre em Markdown.",
+      "link":"https://guides.github.com/features/mastering-markdown/"
+    },
+    {
+      "name":"",
+      "name_pt_br":"Artigo com mais dicas iradas para criar seus projetos abertos focando em javascript :)",
+      "link":"https://ericdouglas.github.io/2015/09/27/checklist-for-your-new-open-source-javascript-project/"
+    },
+    {
+      "name":"",
+      "name_pt_br":"Lembre-se da existência do Gitter para integrar um Chat a seu repositório.",
+      "link":"https://gitter.im/"
+    },
+    {
+      "name":"",
+      "name_pt_br":"Aprenda tudo sobre o Github.",
+      "link":"https://help.github.com/"
+    },
+    {
+      "name":"",
+      "name_pt_br":"Se você é estudante, receba seu Student Developer Pack.",
+      "link":"https://education.github.com/"
     }
   ]
 }
