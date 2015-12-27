@@ -2,10 +2,10 @@
 
 *
   box-sizing border-box
- 
+
 // div,header
 // 	border 1px solid #fff
-	 
+
 /* Vendors
 ---------------------------------------------- */
 @import "vendors/normalize"
@@ -40,21 +40,25 @@ body
 	max-width 800px
 	padding 5px
 
-.flag
+.lang
 	margin 5px
+	border 1px solid #fff
+	padding 4px
+	display inline-block
+	color #fff
 
 .lang-bar a
 	text-decoration none
 	opacity .5
 	transition opacity .3s
-	
+
 .lang-bar a:hover
 	opacity 1
-	
+
 @media screen and (max-width 666px)
 	.lang-bar
 		margin-bottom 50px
-	
+
 .heading-1
 	margin 10px 20px
 	color #fff
@@ -128,10 +132,10 @@ body
 .task
 	padding 15px
 	display flex
-	
+
 .task:nth-child(even)
 	background-color #f0f0f0
-	
+
 .task-name
 	color #b9b9b9
 	margin-left 10px
