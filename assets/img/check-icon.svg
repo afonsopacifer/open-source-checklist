@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="83">
+    <desc iVinci="yes" version="4.6" gridStep="20" showGrid="no" snapToGrid="no" codePlatform="0"/>
+    <g id="Layer1" name="Layer 1" opacity="1">
+        <g id="Shape1">
+            <desc shapeID="1" type="0" basicInfo-basicType="0" basicInfo-roundedRectRadius="12" basicInfo-polygonSides="6" basicInfo-starPoints="5" bounding="rect(-206,-170.354,412,340.708)" text="" font-familyName="" font-pixelSize="20" font-bold="0" font-underline="0" font-alignment="1" strokeStyle="0" markerStart="0" markerEnd="0" shadowEnabled="0" shadowOffsetX="0" shadowOffsetY="2" shadowBlur="4" shadowOpacity="160" blurEnabled="0" blurRadius="4" transform="matrix(0.241273,0,0,0.241273,49.7022,41.1018)" pers-center="0,0" pers-size="0,0" pers-start="0,0" pers-end="0,0" locked="0" mesh="" flag=""/>
+            <path id="shapePath1" d="M81.988,40.4516 L81.988,82.2036 L-7.6294e-06,82.2036 L-7.6294e-06,0.21497 L76.4375,0.21497 L66.4871,10.1651 L9.95009,10.1651 L9.95009,72.2535 L72.0381,72.2535 L72.0381,50.3583 L81.988,40.4516 M86.7302,-3.8147e-06 L47.2888,39.4411 L30.205,22.3527 L17.5364,35.0237 L47.289,64.7852 L99.4045,12.6661 L86.7302,-3.8147e-06 Z" style="stroke:none;fill-rule:nonzero;fill:#ffffff;fill-opacity:1;"/>
+        </g>
+    </g>
+</svg>
