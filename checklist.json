@@ -46,8 +46,8 @@
       "link":"http://blog.smartbear.com/careers/13-things-people-hate-about-your-open-source-docs/"
     },
     {
-      "name":"Describe your Releases clearly and objectively or create a CHEGELOG.md file and do it there.",
-      "name_pt_br":"Descreva suas Releases de forma clara e objetiva ou crie um arquivo CHEGELOG.md e faça isso lá.",
+      "name":"Describe your Releases clearly and objectively or create a CHANGELOG.md file and do it there.",
+      "name_pt_br":"Descreva suas Releases de forma clara e objetiva ou crie um arquivo CHANGELOG.md e faça isso lá.",
       "link":"http://keepachangelog.com/"
     },
     {
