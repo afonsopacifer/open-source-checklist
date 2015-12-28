@@ -16,19 +16,24 @@
       "link":"https://en.wikipedia.org/wiki/README"
     },
     {
-      "name":"Select and add the best licence for your project.",
-      "name_pt_br":"Escolha uma licença adequada.",
-      "link":"http://choosealicense.com/"
-    },
-    {
       "name":"Create a CONTRIBUTING.md file containing all the necessary information so that other developers can help you.",
       "name_pt_br":"Crie um arquivo CONTRIBUTING.md contendo todas as informações necessárias para que outros desenvolvedores ajudem ;)",
       "link":"https://github.com/blog/1184-contributing-guidelines"
     },
     {
-      "name":"Document your project in the best possible way.",
-      "name_pt_br":"Documente seu projeto da melhor forma possível.(Como usar, dependências, suporte, etc...)",
-      "link":"http://blog.smartbear.com/careers/13-things-people-hate-about-your-open-source-docs/"
+      "name":"Add a .gitignore file containing everything you do not want versioning .",
+      "name_pt_br":"Adicione um arquivo .gitignore contendo tudo o que você não deseja versionar.",
+      "link":"https://help.github.com/articles/ignoring-files/"
+    },
+    {
+      "name":"Select and add the best licence for your project.",
+      "name_pt_br":"Escolha uma licença adequada.",
+      "link":"http://choosealicense.com/"
+    },
+    {
+      "name":"Choose a methodology versioning and follow.",
+      "name_pt_br":"Escolha uma metodologia de versionamento e a siga!",
+      "link":"http://semver.org/"
     },
     {
       "name":"Create a roadmap to make clear the course of the project.",
@@ -36,9 +41,9 @@
       "link":"https://en.wikipedia.org/wiki/Technology_roadmap"
     },
     {
-      "name":"Choose a methodology versioning and follow.",
-      "name_pt_br":"Escolha uma metodologia de versionamento e a siga!",
-      "link":"http://semver.org/"
+      "name":"Document your project in the best possible way.",
+      "name_pt_br":"Documente seu projeto da melhor forma possível.(Como usar, dependências, suporte, etc...)",
+      "link":"http://blog.smartbear.com/careers/13-things-people-hate-about-your-open-source-docs/"
     },
     {
       "name":"Describe your Releases clearly and objectively or create a CHEGELOG.md file and do it there.",
@@ -49,6 +54,11 @@
       "name":"Use badges to indicate the status of your project.",
       "name_pt_br":"Use Badges para indicar os vários status do projeto.",
       "link":"http://shields.io/"
+    },
+    {
+      "name":"Configure and add a .editorconfig.",
+      "name_pt_br":"Configure e adicione um .editorconfig.",
+      "link":"http://editorconfig.org/"
     },
     {
       "name":"When necessary do not hesitate to create a website for your project. Enjoy and publish with github pages.",
@@ -66,16 +76,6 @@
       "link":"https://travis-ci.org/"
     },
     {
-      "name":"Add a .gitignore file containing everything you do not want versioning .",
-      "name_pt_br":"Adicione um arquivo .gitignore contendo tudo o que você não deseja versionar.",
-      "link":"https://help.github.com/articles/ignoring-files/"
-    },
-    {
-      "name":"Configure and add a .editorconfig.",
-      "name_pt_br":"Configure e adicione um .editorconfig.",
-      "link":"http://editorconfig.org/"
-    },
-    {
       "name":"Provide your project in the appropriate package manager. (EX: bower, npm, etc...)",
       "name_pt_br":"Disponibilize seu projeto no gerenciador de pacotes adequado. (EX: bower, npm, etc...)",
       "link":"https://en.wikipedia.org/wiki/List_of_software_package_management_systems"
@@ -83,9 +83,34 @@
   ],
   "tricks":[
     {
+      "name":"Learn all about Github.",
+      "name_pt_br":"Aprenda tudo sobre o Github.",
+      "link":"https://help.github.com/"
+    },
+    {
+      "name":"Be the master of Markdown.",
+      "name_pt_br":"Seja o mestre em Markdown.",
+      "link":"https://guides.github.com/features/mastering-markdown/"
+    },
+    {
+      "name":"If you are a student, receive your Student Developer Pack.",
+      "name_pt_br":"Se você é estudante, receba seu Student Developer Pack.",
+      "link":"https://education.github.com/"
+    },
+    {
+      "name":"Use Emoji Emoticons.",
+      "name_pt_br":"Use Emoji Emoticons sem moderação.",
+      "link":"http://www.emoji-cheat-sheet.com/"
+    },
+    {
       "name":"Always use SVG.",
       "name_pt_br":"Use sempre SVG.",
       "link":"https://github.com/willianjusten/awesome-svg"
+    },
+    {
+      "name":"Remember the existence of Gitter to integrate a chat to your repository.",
+      "name_pt_br":"Lembre-se da existência do Gitter para integrar um Chat a seu repositório.",
+      "link":"https://gitter.im/"
     },
     {
       "name":"Submit your project for the appropriate newsletter.",
@@ -98,34 +123,9 @@
       "link":"https://github.com/sindresorhus/awesome"
     },
     {
-      "name":"Use Emoji Emoticons.",
-      "name_pt_br":"Use Emoji Emoticons sem moderação.",
-      "link":"http://www.emoji-cheat-sheet.com/"
-    },
-    {
-      "name":"Be the master of Markdown.",
-      "name_pt_br":"Seja o mestre em Markdown.",
-      "link":"https://guides.github.com/features/mastering-markdown/"
-    },
-    {
       "name":"Article with more tips to create your open projects focusing on javascript :)",
       "name_pt_br":"Artigo com mais dicas iradas para criar seus projetos abertos focando em javascript :)",
       "link":"https://ericdouglas.github.io/2015/09/27/checklist-for-your-new-open-source-javascript-project/"
-    },
-    {
-      "name":"Remember the existence of Gitter to integrate a chat to your repository.",
-      "name_pt_br":"Lembre-se da existência do Gitter para integrar um Chat a seu repositório.",
-      "link":"https://gitter.im/"
-    },
-    {
-      "name":"Learn all about Github.",
-      "name_pt_br":"Aprenda tudo sobre o Github.",
-      "link":"https://help.github.com/"
-    },
-    {
-      "name":"If you are a student, receive your Student Developer Pack.",
-      "name_pt_br":"Se você é estudante, receba seu Student Developer Pack.",
-      "link":"https://education.github.com/"
     }
   ]
 }
