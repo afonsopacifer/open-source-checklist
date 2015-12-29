@@ -62,8 +62,9 @@ html(lang="en" prefix="og: http://ogp.me/ns#")
 					div.task-list
 						- for task in tasks
 							div.task
-								input(type="checkbox" value=task.name)
-								span.task-name
+								div 
+									input(type="checkbox" value=task.name)
+								div.task-name
 									a(href=task.link class="task-link" target="_blank")=task.name
 			
 			//trick list
