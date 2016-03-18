@@ -135,21 +135,63 @@ body
 .task
 	padding 15px
 	display flex
+	align-items center
 
 .task:nth-child(even)
 	background-color #f0f0f0
 
-.task-name
-	color #b9b9b9
-	margin-left 10px
-	font-weight 300
+/* Checkbox style and UI feedback */
+.task input[type='checkbox']
+	display none
+
+.task label
+	border 1px solid #ccc
+	height 15px
+	width 15px
+	margin 0
+	padding 0
+	display flex
+	justify-content center
+	align-items center
+	position relative
+
+.task input[type='checkbox']:checked + label
+	border 1px solid #9ee516
+
+.task input[type='checkbox']:checked + label:after
+	background-color #9ee516
+	position absolute
+	display block
+	bottom 4px
+	left 1px
+	width 10px
+	height 5px
+	transform rotate(45deg)
+	content ""
+
+.task input[type='checkbox']:checked + label:before
+	background-color #9ee516
+	position absolute
+	display block
+	bottom 0px
+	right -1px
+	width 5px
+	height 18px
+	transform rotate(45deg)
+	content ""
 
 .task-link
 	color complementary
 	text-decoration none
+	margin-left 20px
+	font-weight 300
+	flex 1
 
 .task-link:hover
 	text-decoration underline
+
+.task input[type='checkbox']:checked + label ~ .task-link
+	text-decoration line-through
 
 .trick-h3
 	color highlight_left
