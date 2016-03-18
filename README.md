@@ -25,6 +25,6 @@ For more information about how to contribute, see the [contribution guide](https
 
 Want to contribute? [Follow these recommendations](https://github.com/afonsopacifer/open-source-checklist/blob/master/CONTRIBUTING.md).
 
-## Licence
+## License
 
-[MIT Licence](https://github.com/afonsopacifer/open-source-checklist/blob/master/LICENCE.md) © [Afonso Pacifer](http://afonsopacifer.com/)
+[MIT License](https://github.com/afonsopacifer/open-source-checklist/blob/master/LICENSE.md) © [Afonso Pacifer](http://afonsopacifer.com/)
