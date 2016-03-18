@@ -229,3 +229,40 @@ body
 
 .licence a:hover
 	opacity .7
+
+.heart {
+  margin: 0 5px;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  position: relative;
+  display: inline-block;
+  animation: pulse .5s infinite alternate ease-in;
+}
+
+.heart:before {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  content: "";
+}
+
+.heart:after {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  content: "";
+}
+
+@keyframes pulse {
+    from {transform: rotate(-135deg) scale(1);}
+    to   {transform: rotate(-135deg) scale(1.2);}
+}
